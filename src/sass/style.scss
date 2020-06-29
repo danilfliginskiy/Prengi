@@ -1,0 +1,50 @@
+@import "base/mixins";
+@import "base/variables";
+
+@import "libs/normalize";
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/carousel";
+@import "blocks/titles";
+@import "blocks/reasons";
+@import "blocks/solutions";
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+input, a, button {
+    cursor: pointer;
+}
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 991px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 575px){
+    .container{
+        max-width: auto;
+    }
+}

@@ -1,0 +1,74 @@
+.reasons {
+    min-height: 900px;
+    padding: 80px 0 80px 0;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item-qs {
+        position: relative;
+        padding: 0 47px 36px 47px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 360px;
+        height: 255px;
+        border: 1px solid $border-color;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 90px;
+            height: 93px;
+            background: url("../../images/reasons/answer-symbol.png") center center/cover no-repeat;
+        }
+    }
+    &__item-ok {
+        position: relative;
+        padding: 0 47px 36px 47px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 360px;
+        height: 255px;
+        border: 1px solid $border-color;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 90px;
+            height: 93px;
+            background: url("../../images/reasons/ok-symbol.png") center center/cover no-repeat;
+        }
+    }
+    &__img {
+        width: 192px;
+        height: 186px;
+    }
+    &__item-title {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 23px;
+        text-align: center;
+        &_bold {
+            font-weight: 700;
+        }
+    }
+    &__divider {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    &__title {
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $text-color;
+        text-align: center;
+        margin: 33px 0 37px 0;
+    }
+}

@@ -1,0 +1,11 @@
+.solutions {
+    position: relative;
+    min-height: 890px;
+    padding: 80px 0 60px 0;
+    background: url("../../images/solutions/background.jpg") center center/cover no-repeat;
+    z-index: 0;
+    &:after {
+        @include gradient-background;
+        z-index: -1;
+    }
+}

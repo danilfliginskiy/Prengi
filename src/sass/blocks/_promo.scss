@@ -1,0 +1,39 @@
+.promo {
+    position: relative;
+    min-height: 700px;
+    padding: 39px 0 0 0;
+    background: url("../../images/promo/background.jpg") center center/cover no-repeat;
+    z-index: 0;
+    &:after {
+        @include gradient-background;
+        z-index: -1;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        width: 140px;
+        height: 65px;
+    }
+    &__navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0 20px 0 20px;
+    }
+    &__img {
+        position: absolute;
+        height: 570px;
+        width: 435px;
+        bottom: 0;
+        right: 0;
+    }
+}

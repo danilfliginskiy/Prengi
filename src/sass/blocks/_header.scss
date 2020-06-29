@@ -1,0 +1,39 @@
+.header {
+    min-height: 50px;
+    padding: 19px 0 16px 0;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__flag {
+        width: 28px;
+        height: 21px;
+        margin-top: 5px;
+    }
+    &__wrapper {
+        margin-left: 11px;
+    }
+    &__title {
+        color: #242424;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0;
+    }
+    &__info {
+        a {
+            color: #242424;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 18px;
+            text-decoration: none;
+            &:hover {
+                color: #242424;
+                text-decoration: none;
+            }
+        }
+    }
+}
