@@ -10,6 +10,10 @@
 @import "blocks/titles";
 @import "blocks/reasons";
 @import "blocks/solutions";
+@import "blocks/advantages";
+@import "blocks/option";
+@import "blocks/communication";
+@import "blocks/footer";
 
 * {
     box-sizing: border-box;
@@ -23,6 +27,16 @@ input, a, button {
     position: relative;
     max-width: 1140px;
     margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 @media (max-width: 1200px){

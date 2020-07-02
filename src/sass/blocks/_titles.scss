@@ -4,8 +4,17 @@
     font-weight: 700;
     line-height: 48px;
     &_center {
+        width: 620px;
+        margin: 0 auto;
         font-size: 30px;
-        text-align: center;
         line-height: 35px;
+        text-align: center;
+        &-white {
+            width: 375px;
+        }
+        &-black {
+            width: 375px;
+            color: #000;
+        }
     }
 }

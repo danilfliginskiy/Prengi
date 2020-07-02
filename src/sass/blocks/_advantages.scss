@@ -1,0 +1,53 @@
+.advantages {
+    min-height: 1335px;
+    padding: 80px 0 80px 0;
+    &__items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 44px;
+    }
+    &__item {
+        padding-top: 100px;
+        position: relative;
+        width: 570px;
+        height: 355px;
+        z-index: 0;
+        &:after {
+            @include gradient-background;
+        }
+        &-1 {
+            background: url("../../images/advantages/compass.jpg") center center/cover no-repeat;
+        }
+        &-2 {
+            background: url("../../images/advantages/hand.jpg") center center/cover no-repeat;
+        }
+        &-3 {
+            background: url("../../images/advantages/globe.jpg") center center/cover no-repeat;
+        }
+        &-4 {
+            background: url("../../images/advantages/smartphone.jpg") center center/cover no-repeat;
+        }
+        &-5 {
+            background: url("../../images/advantages/man.jpg") center center/cover no-repeat;
+        }
+        &-6 {
+            background: url("../../images/advantages/card.jpg") center center/cover no-repeat;
+        }
+    }
+    &__wrapper {
+        width: 100%;
+        height: 155px;
+        padding-top: 40px;
+        background-color: rgba(0, 0, 0, .44);
+    }
+    &__item-title {
+        max-width: 340px;
+        color: #ffffff;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
